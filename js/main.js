@@ -17,7 +17,7 @@ function sendEmail() {
     //
     //48c4dd
     
-    axios.post('http://spacr-env.eba-kwkym6hq.ap-south-1.elasticbeanstalk.com/landingEndpoint/', {
+    axios.post('https://www.spacr.tk/landingEndpoint/', {
         name: name,
         email: email,
         destination: dest
